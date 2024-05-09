@@ -9,9 +9,9 @@ NEXT_VER_CODE=${NEXT_VER_CODE:-$(date +'%Y%m%d')}
 REBUILD=${REBUILD:-false}
 OS=$(uname -o)
 
-SERVICE_SH=$(cat scripts/service.sh)
-CUSTOMIZE_SH=$(cat scripts/customize.sh)
-UNINSTALL_SH=$(cat scripts/uninstall.sh)
+SERVICE_SH=$(cat revanced-magisk/service.sh)
+CUSTOMIZE_SH=$(cat revanced-magisk/customize.sh)
+UNINSTALL_SH=$(cat revanced-magisk/uninstall.sh)
 
 # -------------------- json/toml --------------------
 json_get() { grep -o "\"${1}\":[^\"]*\"[^\"]*\"" | sed -E 's/".*".*"(.*)"/\1/'; }

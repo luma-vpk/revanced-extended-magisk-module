@@ -113,6 +113,7 @@ jobs:
         if: env.TG_TOKEN != null
         run: |
           cd build || { echo "build folder not found"; exit 1; }
+          
           TG_CHAT="@hahdhrjekaoakkqkqqqq"
           NL=$'\n'
           APKS=""
@@ -127,6 +128,7 @@ jobs:
           done
           MODULES=${MODULES#"$NL"}
           APKS=${APKS#"$NL"}
+          
           BODY="$(sed 's/^\* \*\*/↪ \*\*/g; s/^\* `/↪ \*\*/g; s/`/\*/g; s/^\* /\↪/g; s/\*\*/\*/g; s/###//g; s/^- /↪ /g; /^==/d;' ../build.md)"
           MSG="*New build!*
           

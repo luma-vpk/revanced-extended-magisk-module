@@ -1,5 +1,3 @@
-all rights belong to the copyright holders
-
 #### ⚠️ Do not download modules from 3rd party sources like random websites you found on Google. There are many that uses my modules and impersonates ReVanced.
 
 # ReVanced Extended Magisk Module
@@ -15,9 +13,9 @@ Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach YouTube
 <details><summary><big>Features</big></summary>
 <ul>
  <li>Support all present and future ReVanced Extended apps</li>
- <li> Can build Magisk modules</li>
+ <li> Can build APK & Magisk modules</li>
  <li> Updated sometime with the latest versions of apps and patches</li>
- <li> Optimize modules for size</li>
+ <li> Optimize modules & APK for size</li>
  <li> Modules</li>
     <ul>
      <li> recompile invalidated odex for faster usage</li>

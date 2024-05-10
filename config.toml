@@ -1,7 +1,7 @@
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
-# see https://github.com/MatadorProBr/revanced-extended-magisk-module/blob/main/CONFIG.md for more detailed explanations
+# see https://github.com/luma-vpk/revanced-extended-magisk-module/blob/revanced-extended/CONFIG.md for more detailed explanations
 
 # you can use rvmm-config-gen to generate a config
 
@@ -14,6 +14,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
 [Music]
 build-mode = "both"
+enabled = "true"
 excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
 version = "latest"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"

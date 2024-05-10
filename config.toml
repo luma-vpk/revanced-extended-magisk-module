@@ -13,6 +13,7 @@ version = "latest"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
 [Music]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 build-mode = "both"
 version = "latest"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+

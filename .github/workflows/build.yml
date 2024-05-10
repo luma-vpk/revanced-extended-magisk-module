@@ -112,8 +112,7 @@ jobs:
           TG_TOKEN: ${{ secrets.TG_TOKEN }}
         if: env.TG_TOKEN != null
         run: |
-          cd build || { echo "Build folder not found"; exit 1; }
-
+          cd build || { echo "build folder not found"; exit 1; }
           TG_CHAT="@hahdhrjekaoakkqkqqqq"
           NL=$'\n'
           APKS=""
@@ -128,16 +127,12 @@ jobs:
           done
           MODULES=${MODULES#"$NL"}
           APKS=${APKS#"$NL"}
-
           BODY="$(sed 's/^\* \*\*/↪ \*\*/g; s/^\* `/↪ \*\*/g; s/`/\*/g; s/^\* /\↪/g; s/\*\*/\*/g; s/###//g; s/^- /↪ /g; /^==/d;' ../build.md)"
           MSG="*New build!*
-
           ${BODY}
-
           *▼ Download Links:*
           Modules:
           ${MODULES}
-
           APKs:
           ${APKS}
           "

@@ -141,7 +141,7 @@ jobs:
           APKs:
           ${APKS}
           
-          `luma-vpk`
+          ```luma-vpk```
           "
           echo "'$MSG'"
           MSG=${MSG:0:9450}

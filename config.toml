@@ -8,7 +8,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 [YouTube]
 build-mode = "both"
 excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
-included-patches = "'Add splash animation' 'MaterialYou'"
+included-patches = "'Add splash animation' 'MaterialYou' 'SponsorBlock'"
 version = "latest"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 

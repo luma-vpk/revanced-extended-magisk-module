@@ -1,6 +1,6 @@
 {
-  "version": "v7.08.53",
-  "versionCode": 10,
-  "zipUrl": "https://github.com/luma-vpk/revanced-extended-magisk-module/releases/download/10/music-revanced-extended-magisk-v7.08.53-arm-v7a.zip",
+  "version": "v7.11.50",
+  "versionCode": 12,
+  "zipUrl": "https://github.com/luma-vpk/revanced-extended-magisk-module/releases/download/12/music-revanced-extended-magisk-v7.11.50-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/luma-vpk/revanced-extended-magisk-module/update/build.md"
 }
